@@ -1,0 +1,388 @@
+[2022-02-23 11:13:26,279] [views.py:26] [views:get_context] [INFO]- Django后端执行更新：
+[2022-02-23 11:13:27,905] [views.py:32] [views:get_context] [INFO]- Django后端执行结果：
+[2022-02-23 11:13:27,905] [views.py:34] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-23 11:13:27,905] [views.py:34] [views:get_context] [INFO]- HEAD is now at d1a11d5 去除不用引用
+
+[2022-02-23 11:13:27,905] [views.py:34] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-23 11:13:27,905] [views.py:34] [views:get_context] [INFO]- ● ChileCat.service - ChileCat
+
+[2022-02-23 11:13:27,905] [views.py:34] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCat.service; enabled; vendor preset: disabled)
+
+[2022-02-23 11:13:27,906] [views.py:34] [views:get_context] [INFO]-    Active: active (running) since Wed 2022-02-23 11:13:27 CST; 14ms ago
+
+[2022-02-23 11:13:27,906] [views.py:34] [views:get_context] [INFO]-  Main PID: 12319 (gunicorn)
+
+[2022-02-23 11:13:27,906] [views.py:34] [views:get_context] [INFO]-     Tasks: 1
+
+[2022-02-23 11:13:27,906] [views.py:34] [views:get_context] [INFO]-    Memory: 1.4M
+
+[2022-02-23 11:13:27,906] [views.py:34] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCat.service
+
+[2022-02-23 11:13:27,906] [views.py:34] [views:get_context] [INFO]-            └─12319 /project/ChileCat/env/bin/python3 /project/ChileCat/env/bin/gunicorn ChileCat.asgi:application -w 2 -k uvicorn.workers.UvicornWorker --log-file -
+
+[2022-02-23 11:13:27,906] [views.py:34] [views:get_context] [INFO]- 
+
+[2022-02-23 11:13:27,907] [views.py:34] [views:get_context] [INFO]- Feb 23 11:13:27 VM-16-12-centos systemd[1]: Started ChileCat.
+
+[2022-02-23 11:14:14,258] [views.py:26] [views:get_context] [INFO]- UniApp小程序执行更新：
+[2022-02-23 11:14:15,963] [views.py:32] [views:get_context] [INFO]- UniApp小程序执行结果：
+[2022-02-23 11:14:15,964] [views.py:34] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-23 11:14:15,964] [views.py:34] [views:get_context] [INFO]- HEAD is now at 211a113 1
+
+[2022-02-23 11:14:15,964] [views.py:34] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-23 11:16:40,489] [views.py:26] [views:get_context] [INFO]- UniApp小程序执行更新：
+[2022-02-23 11:16:41,454] [views.py:32] [views:get_context] [INFO]- UniApp小程序执行结果：
+[2022-02-23 11:16:41,455] [views.py:34] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-23 11:16:41,455] [views.py:34] [views:get_context] [INFO]- HEAD is now at 0474b3a 重新打包 修复个人设置 修改床位 不显示床位信息问题
+
+[2022-02-23 11:16:41,455] [views.py:34] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-23 11:23:55,957] [views.py:26] [views:get_context] [INFO]- UniApp小程序执行更新：
+[2022-02-23 11:23:55,957] [views.py:28] [views:get_context] [ERROR]- 身份错误
+[2022-02-23 11:24:13,491] [views.py:26] [views:get_context] [INFO]- UniApp小程序执行更新：
+[2022-02-23 11:24:13,491] [views.py:28] [views:get_context] [ERROR]- 身份错误
+[2022-02-24 18:04:21,714] [views.py:26] [views:get_context] [INFO]- Admin后台执行更新：
+[2022-02-24 18:04:21,715] [views.py:28] [views:get_context] [ERROR]- 身份错误
+[2022-02-24 18:04:39,953] [views.py:26] [views:get_context] [INFO]- Admin后台执行更新：
+[2022-02-24 18:04:39,953] [views.py:28] [views:get_context] [ERROR]- 身份错误
+[2022-02-24 18:06:11,169] [log.py:224] [log:log_response] [WARNING]- Not Found: /
+[2022-02-24 18:06:11,258] [log.py:224] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2022-02-24 18:06:15,492] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /admin/
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 233, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 258, in initial
+    self.log_request(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 281, in log_request
+    request.user,
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/utils/functional.py", line 246, in inner
+    self._setup()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/utils/functional.py", line 382, in _setup
+    self._wrapped = self._setupfunc()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 23, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 177, in get_user
+    user_id = _get_user_session_key(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 65, in __getitem__
+    return self._session[key]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 238, in _get_session
+    self._session_cache = self.load()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    sql, params = self.as_sql()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 507, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 55, in pre_sql_setup
+    self.setup_query()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 46, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 262, in get_select
+    sql, params = self.compile(col)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 439, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/expressions.py", line 836, in as_sql
+    sql = '.'.join(map(compiler.quote_name_unless_alias, identifiers))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 430, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 233, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 451, in thread_handler
+    raise exc_info[1]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 414, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/local/python3/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/local/python3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 455, in thread_handler
+    return func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 255, in handle_exception
+    return super().handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 466, in handle_exception
+    response = exception_handler(exc, context)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 242, in get_exception_handler
+    ret = self.get_uncaught_exception_response(exc, context)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 267, in get_uncaught_exception_response
+    self.log_exception(self.request, exc, context)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 320, in log_exception
+    request.user,
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/utils/functional.py", line 246, in inner
+    self._setup()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/utils/functional.py", line 382, in _setup
+    self._wrapped = self._setupfunc()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 23, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 177, in get_user
+    user_id = _get_user_session_key(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 65, in __getitem__
+    return self._session[key]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 238, in _get_session
+    self._session_cache = self.load()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    sql, params = self.as_sql()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 507, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 55, in pre_sql_setup
+    self.setup_query()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 46, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 262, in get_select
+    sql, params = self.compile(col)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 439, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/expressions.py", line 836, in as_sql
+    sql = '.'.join(map(compiler.quote_name_unless_alias, identifiers))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 430, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2022-02-24 18:06:18,785] [log.py:224] [log:log_response] [WARNING]- Not Found: /admi
+[2022-02-24 18:06:22,434] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /admin
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 233, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 258, in initial
+    self.log_request(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 281, in log_request
+    request.user,
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/utils/functional.py", line 246, in inner
+    self._setup()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/utils/functional.py", line 382, in _setup
+    self._wrapped = self._setupfunc()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 23, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 177, in get_user
+    user_id = _get_user_session_key(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 65, in __getitem__
+    return self._session[key]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 238, in _get_session
+    self._session_cache = self.load()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    sql, params = self.as_sql()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 507, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 55, in pre_sql_setup
+    self.setup_query()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 46, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 262, in get_select
+    sql, params = self.compile(col)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 439, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/expressions.py", line 836, in as_sql
+    sql = '.'.join(map(compiler.quote_name_unless_alias, identifiers))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 430, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 233, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 451, in thread_handler
+    raise exc_info[1]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 414, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/local/python3/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/local/python3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 455, in thread_handler
+    return func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 255, in handle_exception
+    return super().handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 466, in handle_exception
+    response = exception_handler(exc, context)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 242, in get_exception_handler
+    ret = self.get_uncaught_exception_response(exc, context)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 267, in get_uncaught_exception_response
+    self.log_exception(self.request, exc, context)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 320, in log_exception
+    request.user,
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/authentication.py", line 127, in authenticate
+    if not user or not user.is_active:
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/utils/functional.py", line 246, in inner
+    self._setup()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/utils/functional.py", line 382, in _setup
+    self._wrapped = self._setupfunc()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 23, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/middleware.py", line 11, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 177, in get_user
+    user_id = _get_user_session_key(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 60, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 65, in __getitem__
+    return self._session[key]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/base.py", line 238, in _get_session
+    self._session_cache = self.load()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 43, in load
+    s = self._get_session_from_db()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/contrib/sessions/backends/db.py", line 32, in _get_session_from_db
+    return self.model.objects.get(
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 431, in get
+    num = len(clone)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 262, in __len__
+    self._fetch_all()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 1324, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/query.py", line 51, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1156, in execute_sql
+    sql, params = self.as_sql()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 507, in as_sql
+    extra_select, order_by, group_by = self.pre_sql_setup()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 55, in pre_sql_setup
+    self.setup_query()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 46, in setup_query
+    self.select, self.klass_info, self.annotation_col_map = self.get_select()
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 262, in get_select
+    sql, params = self.compile(col)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 439, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/expressions.py", line 836, in as_sql
+    sql = '.'.join(map(compiler.quote_name_unless_alias, identifiers))
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 430, in quote_name_unless_alias
+    r = self.connection.ops.quote_name(name)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/db/backends/dummy/base.py", line 20, in complain
+    raise ImproperlyConfigured("settings.DATABASES is improperly configured. "
+django.core.exceptions.ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value. Check settings documentation for more details.
+[2022-02-25 22:11:03,227] [log.py:224] [log:log_response] [WARNING]- Not Found: /hook

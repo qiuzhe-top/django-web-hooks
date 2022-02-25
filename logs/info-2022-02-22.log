@@ -1,0 +1,84 @@
+[2022-02-22 10:49:06,446] [views.py:26] [views:get_context] [INFO]- Django后端执行更新：
+[2022-02-22 10:49:08,416] [views.py:32] [views:get_context] [INFO]- Django后端执行结果：
+[2022-02-22 10:49:08,416] [views.py:34] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-22 10:49:08,416] [views.py:34] [views:get_context] [INFO]- HEAD is now at 9c6cb0d 去除无用引用
+
+[2022-02-22 10:49:08,416] [views.py:34] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-22 10:49:08,416] [views.py:34] [views:get_context] [INFO]- ● ChileCat.service - ChileCat
+
+[2022-02-22 10:49:08,417] [views.py:34] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCat.service; enabled; vendor preset: disabled)
+
+[2022-02-22 10:49:08,417] [views.py:34] [views:get_context] [INFO]-    Active: active (running) since Tue 2022-02-22 10:49:08 CST; 13ms ago
+
+[2022-02-22 10:49:08,417] [views.py:34] [views:get_context] [INFO]-  Main PID: 9270 (gunicorn)
+
+[2022-02-22 10:49:08,417] [views.py:34] [views:get_context] [INFO]-     Tasks: 1
+
+[2022-02-22 10:49:08,417] [views.py:34] [views:get_context] [INFO]-    Memory: 1.4M
+
+[2022-02-22 10:49:08,417] [views.py:34] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCat.service
+
+[2022-02-22 10:49:08,417] [views.py:34] [views:get_context] [INFO]-            └─9270 /project/ChileCat/env/bin/python3 /project/ChileCat/env/bin/gunicorn ChileCat.asgi:application -w 2 -k uvicorn.workers.UvicornWorker --log-file -
+
+[2022-02-22 10:49:08,417] [views.py:34] [views:get_context] [INFO]- 
+
+[2022-02-22 10:49:08,418] [views.py:34] [views:get_context] [INFO]- Feb 22 10:49:08 VM-16-12-centos systemd[1]: Started ChileCat.
+
+[2022-02-22 10:56:23,668] [views.py:26] [views:get_context] [INFO]- Django后端执行更新：
+[2022-02-22 10:56:25,748] [views.py:32] [views:get_context] [INFO]- Django后端执行结果：
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]- HEAD is now at 4d9c2a7 删除文件 core
+
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]- ● ChileCat.service - ChileCat
+
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCat.service; enabled; vendor preset: disabled)
+
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]-    Active: active (running) since Tue 2022-02-22 10:56:25 CST; 6ms ago
+
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]-  Main PID: 19230 (systemd)
+
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]-     Tasks: 0
+
+[2022-02-22 10:56:25,749] [views.py:34] [views:get_context] [INFO]-    Memory: 0B
+
+[2022-02-22 10:56:25,750] [views.py:34] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCat.service
+
+[2022-02-22 10:56:25,750] [views.py:34] [views:get_context] [INFO]-            └─19230 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+
+[2022-02-22 10:56:25,750] [views.py:34] [views:get_context] [INFO]- 
+
+[2022-02-22 10:56:25,750] [views.py:34] [views:get_context] [INFO]- Feb 22 10:56:25 VM-16-12-centos systemd[1]: Started ChileCat.
+
+[2022-02-22 10:57:53,934] [views.py:26] [views:get_context] [INFO]- Django后端执行更新：
+[2022-02-22 10:57:55,664] [views.py:32] [views:get_context] [INFO]- Django后端执行结果：
+[2022-02-22 10:57:55,665] [views.py:34] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-22 10:57:55,665] [views.py:34] [views:get_context] [INFO]- HEAD is now at 9c6cb0d 去除无用引用
+
+[2022-02-22 10:57:55,665] [views.py:34] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-22 10:57:55,665] [views.py:34] [views:get_context] [INFO]- ● ChileCat.service - ChileCat
+
+[2022-02-22 10:57:55,665] [views.py:34] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCat.service; enabled; vendor preset: disabled)
+
+[2022-02-22 10:57:55,665] [views.py:34] [views:get_context] [INFO]-    Active: active (running) since Tue 2022-02-22 10:57:55 CST; 22ms ago
+
+[2022-02-22 10:57:55,665] [views.py:34] [views:get_context] [INFO]-  Main PID: 21284 (gunicorn)
+
+[2022-02-22 10:57:55,666] [views.py:34] [views:get_context] [INFO]-     Tasks: 1
+
+[2022-02-22 10:57:55,666] [views.py:34] [views:get_context] [INFO]-    Memory: 1.6M
+
+[2022-02-22 10:57:55,666] [views.py:34] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCat.service
+
+[2022-02-22 10:57:55,666] [views.py:34] [views:get_context] [INFO]-            └─21284 /project/ChileCat/env/bin/python3 /project/ChileCat/env/bin/gunicorn ChileCat.asgi:application -w 2 -k uvicorn.workers.UvicornWorker --log-file -
+
+[2022-02-22 10:57:55,666] [views.py:34] [views:get_context] [INFO]- 
+
+[2022-02-22 10:57:55,666] [views.py:34] [views:get_context] [INFO]- Feb 22 10:57:55 VM-16-12-centos systemd[1]: Started ChileCat.
+

@@ -1,0 +1,18 @@
+[2022-02-24 19:08:33,618] [views.py:64] [views:get_context] [ERROR]- 身份错误
+[2022-02-24 19:09:39,882] [views.py:64] [views:get_context] [ERROR]- 身份错误
+[2022-02-24 19:14:41,571] [views.py:75] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-24 19:16:58,025] [views.py:75] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-24 19:17:19,423] [views.py:70] [views:get_context] [INFO]- 执行更新：refs/heads/DevelopTEAM_JT/ChileCat_Admin_Web
+[2022-02-24 19:17:19,433] [views.py:75] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-24 19:17:46,983] [views.py:70] [views:get_context] [INFO]- 执行更新：refs/heads/DevelopTEAM_JT/ChileCat_Admin_Web
+[2022-02-24 19:17:58,915] [views.py:75] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-24 19:19:18,878] [views.py:70] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat_Admin_Web
+[2022-02-24 19:19:18,889] [views.py:75] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-24 19:19:34,194] [views.py:69] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat_Admin_Web
+[2022-02-24 19:19:34,932] [views.py:74] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-24 19:19:34,933] [views.py:76] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-24 19:19:34,933] [views.py:76] [views:get_context] [INFO]- HEAD is now at f1af515 测试打包
+
+[2022-02-24 19:19:34,934] [views.py:76] [views:get_context] [INFO]- Already up-to-date.
+
