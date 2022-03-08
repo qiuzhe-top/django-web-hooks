@@ -1,0 +1,393 @@
+[2022-02-28 14:31:54,434] [views.py:80] [views:get_context] [ERROR]- 身份错误
+[2022-02-28 14:32:58,415] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat_Admin_Web
+[2022-02-28 14:32:59,177] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-28 14:32:59,177] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-28 14:32:59,177] [views.py:93] [views:get_context] [INFO]- HEAD is now at 9f6dc49 删除无用注释
+
+[2022-02-28 14:32:59,177] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-28 14:38:09,540] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/master：TEAM_JT/ChileCat_Admin_Web
+[2022-02-28 14:38:10,285] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-28 14:38:10,285] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-28 14:38:10,286] [views.py:93] [views:get_context] [INFO]- HEAD is now at 8afa7f4 更新备案号
+
+[2022-02-28 14:38:10,286] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-28 14:52:25,414] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/ZouYang：TEAM_JT/smart-cloud-uni-app
+[2022-02-28 14:52:25,476] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /hook
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 451, in thread_handler
+    raise exc_info[1]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 414, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/local/python3/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/local/python3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 455, in thread_handler
+    return func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 255, in handle_exception
+    return super().handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 211, in get
+    return self.view(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 207, in view
+    context = self.get_context(request, *args, **kwargs)
+  File "/project/ChileCat/WebHooks/WebHooks/views.py", line 88, in get_context
+    sh = COMMANDS[full_name][ref]
+KeyError: 'refs/heads/ZouYang'
+[2022-02-28 14:54:38,509] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Dev：TEAM_JT/smart-cloud-uni-app
+[2022-02-28 14:54:40,901] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-28 14:54:40,901] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-28 14:54:40,901] [views.py:93] [views:get_context] [INFO]- HEAD is now at b7a66b1 打包 修改备案号
+
+[2022-02-28 14:54:40,902] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-28 15:00:17,626] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/master：TEAM_JT/smart-cloud-uni-app
+[2022-02-28 15:00:18,642] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-28 15:00:18,642] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-28 15:00:18,642] [views.py:93] [views:get_context] [INFO]- HEAD is now at 8cad3fb 打包修改备案号域名
+
+[2022-02-28 15:00:18,642] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-28 15:05:46,058] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Dev：TEAM_JT/smart-cloud-uni-app
+[2022-02-28 15:05:47,070] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-28 15:05:47,071] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-28 15:05:47,071] [views.py:93] [views:get_context] [INFO]- HEAD is now at cee7b55 打包
+
+[2022-02-28 15:05:47,071] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-28 15:23:51,177] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat
+[2022-02-28 15:23:54,209] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-28 15:23:54,209] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-28 15:23:54,209] [views.py:93] [views:get_context] [INFO]- HEAD is now at 6a85643 配置开发模式
+
+[2022-02-28 15:23:54,210] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-28 15:23:54,210] [views.py:93] [views:get_context] [INFO]- ● ChileCatTest.service - ChileCatTest
+
+[2022-02-28 15:23:54,210] [views.py:93] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCatTest.service; disabled; vendor preset: disabled)
+
+[2022-02-28 15:23:54,210] [views.py:93] [views:get_context] [INFO]-    Active: active (running) since Mon 2022-02-28 15:23:54 CST; 63ms ago
+
+[2022-02-28 15:23:54,210] [views.py:93] [views:get_context] [INFO]-  Main PID: 440 (gunicorn)
+
+[2022-02-28 15:23:54,210] [views.py:93] [views:get_context] [INFO]-     Tasks: 0
+
+[2022-02-28 15:23:54,210] [views.py:93] [views:get_context] [INFO]-    Memory: 0B
+
+[2022-02-28 15:23:54,211] [views.py:93] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCatTest.service
+
+[2022-02-28 15:23:54,211] [views.py:93] [views:get_context] [INFO]-            └─440 /project/ChileCatTest/env/bin/python3 /project/ChileCatTest/env/bin/gunicorn ChileCat.asgi:application -b 0.0.0.0:9000 -w 1 -k uvicorn.workers.UvicornWorker --reload --log-file -
+
+[2022-02-28 15:23:54,211] [views.py:93] [views:get_context] [INFO]- 
+
+[2022-02-28 15:23:54,211] [views.py:93] [views:get_context] [INFO]- Feb 28 15:23:54 VM-16-12-centos systemd[1]: Started ChileCatTest.
+
+[2022-02-28 15:27:06,870] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat
+[2022-02-28 15:27:07,977] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-02-28 15:27:07,978] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-02-28 15:27:07,978] [views.py:93] [views:get_context] [INFO]- HEAD is now at fb1ab44 配置开发数据库
+
+[2022-02-28 15:27:07,978] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-02-28 15:27:07,978] [views.py:93] [views:get_context] [INFO]- ● ChileCatTest.service - ChileCatTest
+
+[2022-02-28 15:27:07,978] [views.py:93] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCatTest.service; disabled; vendor preset: disabled)
+
+[2022-02-28 15:27:07,979] [views.py:93] [views:get_context] [INFO]-    Active: active (running) since Mon 2022-02-28 15:27:07 CST; 6ms ago
+
+[2022-02-28 15:27:07,979] [views.py:93] [views:get_context] [INFO]-  Main PID: 1818 (gunicorn)
+
+[2022-02-28 15:27:07,979] [views.py:93] [views:get_context] [INFO]-     Tasks: 1
+
+[2022-02-28 15:27:07,979] [views.py:93] [views:get_context] [INFO]-    Memory: 616.0K
+
+[2022-02-28 15:27:07,979] [views.py:93] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCatTest.service
+
+[2022-02-28 15:27:07,979] [views.py:93] [views:get_context] [INFO]-            └─1818 /project/ChileCatTest/env/bin/python3 /project/ChileCatTest/env/bin/gunicorn ChileCat.asgidev:application -b 0.0.0.0:9000 -w 1 -k uvicorn.workers.UvicornWorker --reload --log-file -
+
+[2022-02-28 15:27:07,979] [views.py:93] [views:get_context] [INFO]- 
+
+[2022-02-28 15:27:07,979] [views.py:93] [views:get_context] [INFO]- Feb 28 15:27:07 VM-16-12-centos systemd[1]: Started ChileCatTest.
+
+[2022-02-28 15:53:21,628] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/ZouYang：TEAM_JT/ChileCat_Admin_Web
+[2022-02-28 15:53:21,669] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /hook
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 451, in thread_handler
+    raise exc_info[1]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 414, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/local/python3/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/local/python3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 455, in thread_handler
+    return func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 255, in handle_exception
+    return super().handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 211, in get
+    return self.view(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 207, in view
+    context = self.get_context(request, *args, **kwargs)
+  File "/project/ChileCat/WebHooks/WebHooks/views.py", line 88, in get_context
+    sh = COMMANDS[full_name][ref]
+KeyError: 'refs/heads/ZouYang'
+[2022-03-03 20:16:05,402] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/ZouYang：TEAM_JT/ChileCat_Admin_Web
+[2022-03-03 20:16:05,440] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /hook
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 451, in thread_handler
+    raise exc_info[1]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 414, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/local/python3/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/local/python3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 455, in thread_handler
+    return func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 255, in handle_exception
+    return super().handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 211, in get
+    return self.view(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 207, in view
+    context = self.get_context(request, *args, **kwargs)
+  File "/project/ChileCat/WebHooks/WebHooks/views.py", line 88, in get_context
+    sh = COMMANDS[full_name][ref]
+KeyError: 'refs/heads/ZouYang'
+[2022-03-03 20:16:14,445] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/ZouYang：TEAM_JT/ChileCat
+[2022-03-03 20:16:14,482] [log.py:224] [log:log_response] [ERROR]- Internal Server Error: /hook
+Traceback (most recent call last):
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 451, in thread_handler
+    raise exc_info[1]
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 38, in inner
+    response = await get_response(request)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 233, in _get_response_async
+    response = await wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 414, in __call__
+    ret = await asyncio.wait_for(future, timeout=None)
+  File "/usr/local/python3/lib/python3.8/asyncio/tasks.py", line 455, in wait_for
+    return await fut
+  File "/usr/local/python3/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/asgiref/sync.py", line 455, in thread_handler
+    return func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 255, in handle_exception
+    return super().handle_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/project/ChileCat/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 211, in get
+    return self.view(request, *args, **kwargs)
+  File "/project/ChileCat/env/lib/python3.8/site-packages/cool/views/view.py", line 207, in view
+    context = self.get_context(request, *args, **kwargs)
+  File "/project/ChileCat/WebHooks/WebHooks/views.py", line 88, in get_context
+    sh = COMMANDS[full_name][ref]
+KeyError: 'refs/heads/ZouYang'
+[2022-03-03 20:25:15,741] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat
+[2022-03-03 20:25:19,918] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-03-03 20:25:19,918] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-03-03 20:25:19,918] [views.py:93] [views:get_context] [INFO]- HEAD is now at cca1ce9 Merge branch 'ZouYang' into Develop
+
+[2022-03-03 20:25:19,919] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-03-03 20:25:19,919] [views.py:93] [views:get_context] [INFO]- ● ChileCatTest.service - ChileCatTest
+
+[2022-03-03 20:25:19,919] [views.py:93] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCatTest.service; disabled; vendor preset: disabled)
+
+[2022-03-03 20:25:19,919] [views.py:93] [views:get_context] [INFO]-    Active: active (running) since Thu 2022-03-03 20:25:19 CST; 41ms ago
+
+[2022-03-03 20:25:19,919] [views.py:93] [views:get_context] [INFO]-  Main PID: 13728 ((gunicorn))
+
+[2022-03-03 20:25:19,919] [views.py:93] [views:get_context] [INFO]-     Tasks: 1
+
+[2022-03-03 20:25:19,919] [views.py:93] [views:get_context] [INFO]-    Memory: 44.0K
+
+[2022-03-03 20:25:19,919] [views.py:93] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCatTest.service
+
+[2022-03-03 20:25:19,920] [views.py:93] [views:get_context] [INFO]-            └─13728 (gunicorn)                                                        
+
+[2022-03-03 20:25:19,920] [views.py:93] [views:get_context] [INFO]- 
+
+[2022-03-03 20:25:19,920] [views.py:93] [views:get_context] [INFO]- Mar 03 20:25:19 VM-16-12-centos systemd[1]: Started ChileCatTest.
+
+[2022-03-03 20:25:31,712] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat_Admin_Web
+[2022-03-03 20:25:34,022] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-03-03 20:25:34,022] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-03-03 20:25:34,022] [views.py:93] [views:get_context] [INFO]- HEAD is now at 2c70c06 修改模板地址
+
+[2022-03-03 20:25:34,022] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-03-03 20:35:14,618] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/master：TEAM_JT/chile-cat-doc
+[2022-03-03 20:35:15,480] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-03-03 20:35:15,480] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-03-03 20:35:15,481] [views.py:93] [views:get_context] [INFO]- HEAD is now at 7e48668 2022.03.03
+
+[2022-03-03 20:35:15,481] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-03-06 07:46:22,465] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat_Admin_Web
+[2022-03-06 07:46:23,994] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-03-06 07:46:23,994] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-03-06 07:46:23,994] [views.py:93] [views:get_context] [INFO]- HEAD is now at bc95dd3 修改模板地址
+
+[2022-03-06 07:46:23,994] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-03-06 08:34:50,018] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/master：TEAM_JT/ChileCat_Admin_Web
+[2022-03-06 08:34:51,488] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-03-06 08:34:51,489] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-03-06 08:34:51,489] [views.py:93] [views:get_context] [INFO]- HEAD is now at 735a08b 2022.03.03
+
+[2022-03-06 08:34:51,489] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-03-06 08:36:44,898] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/master：TEAM_JT/ChileCat
+[2022-03-06 08:36:46,544] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-03-06 08:36:46,545] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-03-06 08:36:46,545] [views.py:93] [views:get_context] [INFO]- HEAD is now at e7e625a Merge branch 'Develop'
+
+[2022-03-06 08:36:46,545] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-03-06 08:36:46,545] [views.py:93] [views:get_context] [INFO]- ● ChileCat.service - ChileCat
+
+[2022-03-06 08:36:46,545] [views.py:93] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCat.service; enabled; vendor preset: disabled)
+
+[2022-03-06 08:36:46,546] [views.py:93] [views:get_context] [INFO]-    Active: active (running) since Sun 2022-03-06 08:36:46 CST; 17ms ago
+
+[2022-03-06 08:36:46,546] [views.py:93] [views:get_context] [INFO]-  Main PID: 16351 (gunicorn)
+
+[2022-03-06 08:36:46,546] [views.py:93] [views:get_context] [INFO]-     Tasks: 1
+
+[2022-03-06 08:36:46,546] [views.py:93] [views:get_context] [INFO]-    Memory: 2.5M
+
+[2022-03-06 08:36:46,546] [views.py:93] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCat.service
+
+[2022-03-06 08:36:46,546] [views.py:93] [views:get_context] [INFO]-            └─16351 /project/ChileCat/env/bin/python3 /project/ChileCat/env/bin/gunicorn ChileCat.asgi:application -w 2 -k uvicorn.workers.UvicornWorker --log-file -
+
+[2022-03-06 08:36:46,546] [views.py:93] [views:get_context] [INFO]- 
+
+[2022-03-06 08:36:46,547] [views.py:93] [views:get_context] [INFO]- Mar 06 08:36:46 VM-16-12-centos systemd[1]: Started ChileCat.
+
+[2022-03-06 14:53:21,356] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/Develop：TEAM_JT/ChileCat
+[2022-03-06 14:53:24,876] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-03-06 14:53:24,876] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-03-06 14:53:24,877] [views.py:93] [views:get_context] [INFO]- HEAD is now at 1980cab 修改redis密码
+
+[2022-03-06 14:53:24,877] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-03-06 14:53:24,877] [views.py:93] [views:get_context] [INFO]- ● ChileCatTest.service - ChileCatTest
+
+[2022-03-06 14:53:24,877] [views.py:93] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCatTest.service; disabled; vendor preset: disabled)
+
+[2022-03-06 14:53:24,877] [views.py:93] [views:get_context] [INFO]-    Active: active (running) since Sun 2022-03-06 14:53:24 CST; 7ms ago
+
+[2022-03-06 14:53:24,877] [views.py:93] [views:get_context] [INFO]-  Main PID: 27524 (gunicorn)
+
+[2022-03-06 14:53:24,877] [views.py:93] [views:get_context] [INFO]-     Tasks: 1
+
+[2022-03-06 14:53:24,878] [views.py:93] [views:get_context] [INFO]-    Memory: 1.1M
+
+[2022-03-06 14:53:24,878] [views.py:93] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCatTest.service
+
+[2022-03-06 14:53:24,878] [views.py:93] [views:get_context] [INFO]-            └─27524 /project/ChileCatTest/env/bin/python3 /project/ChileCatTest/env/bin/gunicorn ChileCat.asgidev:application -b 0.0.0.0:9000 -w 1 -k uvicorn.workers.UvicornWorker --reload --log-file -
+
+[2022-03-06 14:53:24,878] [views.py:93] [views:get_context] [INFO]- 
+
+[2022-03-06 14:53:24,878] [views.py:93] [views:get_context] [INFO]- Mar 06 14:53:24 VM-16-12-centos systemd[1]: Started ChileCatTest.
+
+[2022-03-06 14:53:37,686] [views.py:86] [views:get_context] [INFO]- 执行更新：refs/heads/master：TEAM_JT/ChileCat
+[2022-03-06 14:53:39,192] [views.py:91] [views:get_context] [INFO]- 自动部署执行结果：
+[2022-03-06 14:53:39,193] [views.py:93] [views:get_context] [INFO]- Fetching origin
+
+[2022-03-06 14:53:39,193] [views.py:93] [views:get_context] [INFO]- HEAD is now at 1b40b77 Merge branch 'Develop'
+
+[2022-03-06 14:53:39,193] [views.py:93] [views:get_context] [INFO]- Already up-to-date.
+
+[2022-03-06 14:53:39,193] [views.py:93] [views:get_context] [INFO]- ● ChileCat.service - ChileCat
+
+[2022-03-06 14:53:39,193] [views.py:93] [views:get_context] [INFO]-    Loaded: loaded (/etc/systemd/system/ChileCat.service; enabled; vendor preset: disabled)
+
+[2022-03-06 14:53:39,193] [views.py:93] [views:get_context] [INFO]-    Active: active (running) since Sun 2022-03-06 14:53:39 CST; 12ms ago
+
+[2022-03-06 14:53:39,194] [views.py:93] [views:get_context] [INFO]-  Main PID: 27630 (gunicorn)
+
+[2022-03-06 14:53:39,194] [views.py:93] [views:get_context] [INFO]-     Tasks: 1
+
+[2022-03-06 14:53:39,194] [views.py:93] [views:get_context] [INFO]-    Memory: 2.2M
+
+[2022-03-06 14:53:39,194] [views.py:93] [views:get_context] [INFO]-    CGroup: /system.slice/ChileCat.service
+
+[2022-03-06 14:53:39,194] [views.py:93] [views:get_context] [INFO]-            └─27630 /project/ChileCat/env/bin/python3 /project/ChileCat/env/bin/gunicorn ChileCat.asgi:application -w 2 -k uvicorn.workers.UvicornWorker --log-file -
+
+[2022-03-06 14:53:39,194] [views.py:93] [views:get_context] [INFO]- 
+
+[2022-03-06 14:53:39,194] [views.py:93] [views:get_context] [INFO]- Mar 06 14:53:39 VM-16-12-centos systemd[1]: Started ChileCat.
+
