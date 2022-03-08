@@ -1,9 +1,17 @@
+'''
+Author: 邹洋
+Date: 2022-03-08 15:08:48
+Email: 2810201146@qq.com
+LastEditors:  
+LastEditTime: 2022-03-08 15:18:14
+Description: 
+'''
 from cool.views import CoolAPIException, CoolBFFAPIView, ErrorCode, ViewSite
 import os
 import logging
 logger = logging.getLogger('log')
 site = ViewSite(name='App', app_name='App')
-
+# 1
 def command(command_list):
     command = ''
     for s in command_list:
